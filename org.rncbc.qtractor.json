@@ -164,7 +164,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/qtractor/qtractor-0.9.25.tar.gz",
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.25.tar.gz",
                     "sha256": "70a5c71fbaee8132790fb303266aff7d7ea9db4f70c86310bd22dbbf94f42975"
                 },
                 {
