@@ -51,6 +51,7 @@
         "shared-modules/linux-audio/lv2.json",
         "shared-modules/linux-audio/lilv.json",
         "shared-modules/linux-audio/fftw3f.json",
+        "shared-modules/gtk2/gtk2.json",
         {
             "name": "suil",
             "buildsystem": "simple",
