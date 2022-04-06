@@ -121,7 +121,7 @@
                 "/include",
                 "/lib/pkgconfig",
                 "/lib"
-            ],
+            ]
         },
         {
             "name": "qtractor",
