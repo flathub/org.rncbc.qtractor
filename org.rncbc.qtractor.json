@@ -117,9 +117,9 @@
                 }
             ],
             "cleanup": [
-                "/bin"
-                "/include"
-                "/lib/pkgconfig"
+                "/bin",
+                "/include",
+                "/lib/pkgconfig",
                 "/lib"
             ],
         },
