@@ -103,11 +103,12 @@
         },
         {
             "name": "rubberband",
-            "buildsystem": "simple",
-            "build-commands": [
-                "make -f otherbuilds/Makefile.linux",
-                "install -Dm644 -t /app/lib lib/librubberband.a"
-            ],
+            "buildsystem": "cmake.ninja",
+            "build-options": {
+                "env": {
+                    "PKG_CONFIG_PATH": "/app/lib/pkgconfig"
+                }
+            },
             "sources": [
                 {
                     "type": "archive",
@@ -116,8 +117,11 @@
                 }
             ],
             "cleanup": [
+                "/bin"
+                "/include"
+                "/lib/pkgconfig"
                 "/lib"
-            ]
+            ],
         },
         {
             "name": "qtractor",
