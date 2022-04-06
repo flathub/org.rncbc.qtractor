@@ -103,43 +103,21 @@
         },
         {
             "name": "rubberband",
-            "build-options": {
-                "env": {
-                    "Vamp_CFLAGS": " ",
-                    "Vamp_LIBS": " "
-                }
-            },
-            "modules": [
-                {
-                    "name": "vamp-plugin-sdk",
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://github.com/c4dm/vamp-plugin-sdk/archive/refs/tags/vamp-plugin-sdk-v2.10.tar.gz",
-                            "sha256": "b552bc91817294c7f90ea07d70938642ebf15d5e3bafc81cf7d55efab9995399"
-                        }
-                    ],
-                    "post-install": [
-                        "install -Dm644 -t /app/share/licenses/vamp-plugin-sdk COPYING"
-                    ],
-                    "cleanup": [
-                        "/bin"
-                    ]
-                }
+            "buildsystem": "simple",
+            "build-commands": [
+                "make -f otherbuilds/Makefile.linux",
+                "install -Dm644 -t /lib lib/librubberband.a"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://code.breakfastquay.com/attachments/download/34/rubberband-1.8.1.tar.bz2",
-                    "sha256": "ff0c63b0b5ce41f937a8a3bc560f27918c5fe0b90c6bc1cb70829b86ada82b75"
+                    "url": "https://breakfastquay.com/files/releases/rubberband-2.0.2.tar.bz2",
+                    "sha256": "b9eac027e797789ae99611c9eaeaf1c3a44cc804f9c8a0441a0d1d26f3d6bdf9"
                 }
             ],
-            "post-install": [
-                "install -Dm644 -t /app/share/licenses/rubberband COPYING"
-            ],
             "cleanup": [
-                "/share/ladspa"
-            ]
+                "/lib"
+            ],
         },
         {
             "name": "qtractor",
