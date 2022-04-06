@@ -114,10 +114,9 @@
                     "name": "vamp-plugin-sdk",
                     "sources": [
                         {
-                            "type": "git",
-                            "url": "https://github.com/c4dm/vamp-plugin-sdk",
-                            "tag": "vamp-plugin-sdk-v2.7.1",
-                            "commit": "10be490c9902d874e9d772d94bf91448303d9b06"
+                            "type": "archive",
+                            "url": "https://github.com/c4dm/vamp-plugin-sdk/archive/refs/tags/vamp-plugin-sdk-v2.10.tar.gz",
+                            "sha256": "b552bc91817294c7f90ea07d70938642ebf15d5e3bafc81cf7d55efab9995399"
                         }
                     ],
                     "post-install": [
