@@ -117,7 +117,7 @@
             ],
             "cleanup": [
                 "/lib"
-            ],
+            ]
         },
         {
             "name": "qtractor",
