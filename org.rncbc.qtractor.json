@@ -106,7 +106,7 @@
             "buildsystem": "simple",
             "build-commands": [
                 "make -f otherbuilds/Makefile.linux",
-                "install -Dm644 -t /lib lib/librubberband.a"
+                "install -Dm644 -t /app/lib lib/librubberband.a"
             ],
             "sources": [
                 {
