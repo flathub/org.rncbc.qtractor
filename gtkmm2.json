@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://cairographics.org/releases/cairomm-1.16.1.tar.xz",
-                    "sha256": "6f6060d8e98dd4b8acfee2295fddbdd38cf487c07c26aad8d1a83bb9bff4a2c6"
+                    "url": "http://cairographics.org/releases/cairomm-1.11.2.tar.gz",
+                    "sha256": "ccf677098c1e08e189add0bd146f78498109f202575491a82f1815b6bc28008d"
                 }
             ]
         },
