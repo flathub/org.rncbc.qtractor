@@ -1,7 +1,6 @@
 {
     "name": "gtkmm2",
     "modules": [
-        "gtk2.json",
         {
             "name": "sigc++-2",
             "cleanup": [
