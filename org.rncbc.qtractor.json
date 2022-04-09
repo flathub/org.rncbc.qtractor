@@ -139,9 +139,6 @@
                 "-DCONFIG_VST3SDK=/run/build/qtractor/vst3sdk"
             ],
             "post-install": [
-                "mv ${FLATPAK_DEST}/share/mime/packages/qtractor.xml ${FLATPAK_DEST}/share/mime/packages/${FLATPAK_ID}.xml",
-                "(cd ${FLATPAK_DEST}/share/icons/hicolor/scalable/mimetypes/ ; for f in application-x-* ; do mv ${f} ${FLATPAK_ID}.${f} ; done)",
-                "(cd ${FLATPAK_DEST}/share/icons/hicolor/32x32/mimetypes/ ; for f in application-x-* ; do mv ${f} ${FLATPAK_ID}.${f} ; done)",
                 "mv ${FLATPAK_DEST}/bin/qtractor{,.bin}",
                 "install -D qtractor.sh ${FLATPAK_DEST}/bin/qtractor",
                 "install -d /app/extensions/Plugins"
@@ -149,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.25.tar.gz",
-                    "sha256": "70a5c71fbaee8132790fb303266aff7d7ea9db4f70c86310bd22dbbf94f42975"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.26.tar.gz",
+                    "sha256": "6d629b277918a43214b163087f695b204c5c23dfa25a562286bf0dbb206c240b"
                 },
                 {
                     "type": "git",
