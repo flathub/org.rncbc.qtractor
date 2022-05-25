@@ -15,10 +15,6 @@
         "--env=TMPDIR=/var/tmp",
         "--env=QT_ENABLE_HIGHDPI_SCALING=1",
         "--env=DSSI_PATH=/app/extensions/Plugins/dssi",
-        "--env=LV2_PATH=/app/extensions/Plugins/lv2:/app/lib/lv2",
-        "--env=VST_PATH=/app/extensions/Plugins/lxvst",
-        "--env=LXVST_PATH=/app/extensions/Plugins/lxvst",
-        "--env=VST3_PATH=/app/extensions/Plugins/vst3",
         "--env=LADSPA_PATH=/app/extensions/Plugins/ladspa:/app/lib/ladspa"
     ],
     "add-extensions": {
@@ -26,7 +22,7 @@
             "directory": "extensions/Plugins",
             "version": "21.08",
             "add-ld-path": "lib",
-            "merge-dirs": "ladspa;dssi;lv2;lxvst;vst3",
+            "merge-dirs": "ladspa;dssi;lv2;vst;vst3",
             "subdirectories": true,
             "no-autodownload": true
         }
