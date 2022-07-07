@@ -141,13 +141,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.26.tar.gz",
-                    "sha256": "6d629b277918a43214b163087f695b204c5c23dfa25a562286bf0dbb206c240b"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.27.tar.gz",
+                    "sha256": "7ab56b22a59dbd13f5c07dee64114eb44b999482328591732876046b160c2384"
                 },
                 {
                     "type": "git",
                     "url": "https://github.com/steinbergmedia/vst3sdk.git",
-                    "tag": "v3.7.4_build_25",
+                    "tag": "v3.7.5_build_44",
                     "dest": "vst3sdk"
                 },
                 {
