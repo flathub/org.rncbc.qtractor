@@ -6,6 +6,7 @@ Support plugins installed with flatpak and in homedir.
 
 `~/.vst`
 `~/.vst3`
+`~/.clap`
 `~/.lv2`
 
 This is et by the environment in the wrapper script. The wrapper
