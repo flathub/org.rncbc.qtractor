@@ -5,7 +5,7 @@ includedir=${prefix}/include
 Name: rubberband
 Description: Audio time-stretching and pitch-shifting library
 URL: https://breakfastquay.com/rubberband/
-Version: 2.0.2
+Version: 3.0.0
 Requires: fftw3 >=  3.0.0, samplerate >=  0.1.8
 Libs: -L${libdir} -lrubberband
 Cflags: -I${includedir} -I${includedir}
