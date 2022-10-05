@@ -141,8 +141,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.28.tar.gz",
-                    "sha256": "97d85b3802bda2f69b34e65adf94a6178dc759f24581f9f27e11d2a865684855"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.29.tar.gz",
+                    "sha256": "3d30be92e689ce8c7ff84457ec89bffb2d455da0f8d1c719c376221f8bfce015"
                 },
                 {
                     "type": "git",
