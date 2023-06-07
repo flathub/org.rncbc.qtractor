@@ -62,9 +62,9 @@
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": " http://aubio.org/pub/aubio-0.4.9.tar.bz2",
-                    "sha256": "d48282ae4dab83b3dc94c16cf011bcb63835c1c02b515490e1883049c3d1f3da"
+                    "type": "git",
+                    "url": "https://github.com/aubio/aubio.git",
+                    "tag": "0.4.9"
                 }
             ]
         },
@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.33.tar.gz",
-                    "sha256": "0bfd9df525c27e2eb7dc55fd66fc1eb978d513bbffecd6a0a9df0d47834d06fc"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.34.tar.gz",
+                    "sha256": "bb955a9364d83e064948fb223743fee357e8a4913399fdb610dfa88bf96a7170"
                 },
                 {
                     "type": "git",
