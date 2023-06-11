@@ -10,17 +10,14 @@
         "--socket=pulseaudio",
         "--device=all",
         "--filesystem=xdg-run/pipewire-0",
-        "--system-talk-name=org.freedesktop.RealtimeKit1",
         "--filesystem=home",
         "--env=TMPDIR=/var/tmp",
-        "--env=QT_ENABLE_HIGHDPI_SCALING=1",
-        "--env=DSSI_PATH=/app/extensions/Plugins/dssi",
-        "--env=LADSPA_PATH=/app/extensions/Plugins/ladspa:/app/lib/ladspa"
+        "--env=QT_ENABLE_HIGHDPI_SCALING=1"
     ],
     "add-extensions": {
         "org.freedesktop.LinuxAudio.Plugins": {
             "directory": "extensions/Plugins",
-            "version": "22.04",
+            "version": "22.08",
             "add-ld-path": "lib",
             "merge-dirs": "ladspa;dssi;lv2;vst;vst3;clap",
             "subdirectories": true,
@@ -39,7 +36,6 @@
     "modules": [
         "shared-modules/libmad/libmad.json",
         "shared-modules/linux-audio/ladspa.json",
-        "shared-modules/linux-audio/jack2.json",
         "shared-modules/linux-audio/liblo.json",
         "shared-modules/linux-audio/dssi.json",
         "shared-modules/linux-audio/lv2.json",
