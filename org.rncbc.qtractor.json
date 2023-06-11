@@ -115,7 +115,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/steinbergmedia/vst3sdk.git",
-                    "tag": "v3.7.7_build_19",
+                    "tag": "v3.7.8_build_34",
                     "dest": "vst3sdk"
                 },
                 {
