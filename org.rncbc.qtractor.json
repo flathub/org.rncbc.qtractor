@@ -42,6 +42,7 @@
         "shared-modules/linux-audio/lilv.json",
         "shared-modules/linux-audio/fftw3f.json",
         "shared-modules/gtk2/gtk2.json",
+        "gtkmm2.json",
         {
             "name": "aubio",
             "buildsystem": "simple",
