@@ -98,9 +98,6 @@
                     "LADSPA_PATH=/app/lib/ladspa"
                 ]
             },
-            "config-opts": [
-                "-DCONFIG_VST3SDK=/run/build/qtractor/vst3sdk"
-            ],
             "post-install": [
                 "mv ${FLATPAK_DEST}/bin/qtractor{,.bin}",
                 "install -D qtractor.sh ${FLATPAK_DEST}/bin/qtractor",
@@ -109,14 +106,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.34.tar.gz",
-                    "sha256": "5f2e988ee011dc5f897c7d6446b05974f20d7084724a898d148725096528cf70"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/steinbergmedia/vst3sdk.git",
-                    "tag": "v3.7.8_build_34",
-                    "dest": "vst3sdk"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.35.tar.gz",
+                    "sha256": "fb54726bf71819b56123ebe46b957f14434bd9ffba77f990728d62d752477cec"
                 },
                 {
                     "type": "file",
