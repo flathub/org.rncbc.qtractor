@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.35.tar.gz",
-                    "sha256": "fb54726bf71819b56123ebe46b957f14434bd9ffba77f990728d62d752477cec"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.36.tar.gz",
+                    "sha256": "ef83461e89cbd0a84d6ccbc666f149d5f7b49ed59cb015eae87c0d84735bd8e3"
                 },
                 {
                     "type": "file",
