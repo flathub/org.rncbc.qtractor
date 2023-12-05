@@ -2,8 +2,9 @@
     "name": "aubio",
     "buildsystem": "simple",
     "build-commands": [
-        "make",
-        "make install"
+        "python3 ./waf configure --prefix=/app --libdir=/app/lib --enable-fftw3f --enable-complex --enable-samplerate --disable-avcodec",
+        "python3 ./waf build -j $FLATPAK_BUILDER_N_JOBS",
+        "python3 ./waf install"
     ],
     "cleanup": [
         "/bin",
