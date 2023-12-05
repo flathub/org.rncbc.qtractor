@@ -86,7 +86,7 @@
                 {
                     "type": "archive",
                     "url": "https://downloads.sourceforge.net/qtractor/qtractor-0.9.37.tar.gz",
-                    "sha256": "67d824b25d87c9dcfafbcd318d5e3bec534ecf919276fd24c3e30f15285bfc10"
+                    "sha256": "8446b4488c763343d4b14338953116fb5ace7c863b47899b387baf2243f07a41"
                 },
                 {
                     "type": "file",
