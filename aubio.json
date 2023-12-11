@@ -2,9 +2,9 @@
     "name": "aubio",
     "buildsystem": "simple",
     "build-commands": [
-        "python3 ./waf configure --prefix=/app --libdir=/app/lib --enable-fftw3f --enable-complex --enable-samplerate --disable-avcodec",
-        "python3 ./waf build -j $FLATPAK_BUILDER_N_JOBS",
-        "python3 ./waf install"
+        "python ./waf configure --prefix=/app --libdir=/app/lib --enable-fftw3f --enable-complex --enable-samplerate --disable-avcodec",
+        "python ./waf build -j $FLATPAK_BUILDER_N_JOBS",
+        "python ./waf install"
     ],
     "cleanup": [
         "/bin",
@@ -17,7 +17,10 @@
             "type": "archive",
             "url": "https://aubio.org/pub/aubio-0.4.9.tar.bz2",
             "sha256": "d48282ae4dab83b3dc94c16cf011bcb63835c1c02b515490e1883049c3d1f3da"
+        },
+        {
+            "type": "patch",
+            "path": "patches/aubio-python.patch"
         }
     ]
 }
-	
