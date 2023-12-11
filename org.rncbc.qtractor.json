@@ -44,32 +44,7 @@
         "shared-modules/gtk2/gtk2.json",
         "gtkmm2.json",
         "aubio.json",
-        {
-            "name": "rubberband",
-            "buildsystem": "simple",
-            "build-commands": [
-                "make -f otherbuilds/Makefile.linux",
-                "install -Dm644 -t /app/include/rubberband rubberband/RubberBandStretcher.h",
-                "install -Dm644 -t /app/lib lib/librubberband.a",
-                "install -Dm644 -t /app/lib/pkgconfig rubberband.pc"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://breakfastquay.com/files/releases/rubberband-3.3.0.tar.bz2",
-                    "sha256": "d9ef89e2b8ef9f85b13ac3c2faec30e20acf2c9f3a9c8c45ce637f2bc95e576c"
-                },
-                {
-                    "type": "file",
-                    "path": "rubberband.pc"
-                }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/pkgconfig",
-                "/lib"
-            ]
-        },
+        "rubberband.json",
         {
             "name": "qtractor",
             "buildsystem": "cmake-ninja",
