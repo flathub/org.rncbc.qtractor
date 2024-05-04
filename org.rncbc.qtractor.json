@@ -44,6 +44,7 @@
         "shared-modules/gtk2/gtk2.json",
         "gtkmm2.json",
         "rubberband.json",
+        "aubio.json",
         {
             "name": "qtractor",
             "buildsystem": "cmake-ninja",
