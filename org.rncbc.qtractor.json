@@ -44,6 +44,7 @@
         "shared-modules/gtk2/gtk2.json",
         "gtkmm2.json",
         "rubberband.json",
+        "aubio.json",
         {
             "name": "qtractor",
             "buildsystem": "cmake-ninja",
@@ -60,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.0.tar.gz",
-                    "sha256": "a7616e69db36b93884217452eeca9ef056b75c42b05b5343fe93e75211652dd6"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.1.tar.gz",
+                    "sha256": "8c127caabb9605eba4b96ef3ce2f6b45ac892fe142d5eddff8eddc6fa41f7621"
                 },
                 {
                     "type": "file",
