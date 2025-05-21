@@ -1,7 +1,7 @@
 {
     "app-id": "org.rncbc.qtractor",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "qtractor",
     "finish-args": [
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.4.tar.gz",
-                    "sha256": "815e8880503b19e9de69b44293a1cb65531f9d2f78a9b760c89406c3044ef74e"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.5.tar.gz",
+                    "sha256": "d2a160dfaa955065e62b5281a46d968901639937dc2c51030a198fb259e4f2d7"
                 },
                 {
                     "type": "file",
