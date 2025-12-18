@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.9.tar.gz",
-                    "sha256": "774bbf2e5372afb6521b64243f70f7856d121c2618f4dc44beae77c7bfaca90f"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.10.tar.gz",
+                    "sha256": "ea797deeff22b24847453a1e3610c828d4d138ca199af15ed3d3b528facf8d53"
                 },
                 {
                     "type": "file",
