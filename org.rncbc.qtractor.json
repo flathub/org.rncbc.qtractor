@@ -41,7 +41,6 @@
         "shared-modules/linux-audio/lilv.json",
         "shared-modules/linux-audio/fftw3f.json",
         "rubberband.json",
-        "aubio.json",
         {
             "name": "qtractor",
             "buildsystem": "cmake-ninja",
@@ -58,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.10.tar.gz",
-                    "sha256": "ea797deeff22b24847453a1e3610c828d4d138ca199af15ed3d3b528facf8d53"
+                    "url": "https://downloads.sourceforge.net/qtractor/qtractor-1.5.11.tar.gz",
+                    "sha256": "c1712c32e49c625f97e5b35d7677f0765269594b5e9ef37241f023f716435cd8"
                 },
                 {
                     "type": "file",
