@@ -9,7 +9,7 @@ Support plugins installed with flatpak and in homedir.
 `~/.clap`
 `~/.lv2`
 
-This is et by the environment in the wrapper script. The wrapper
+This is set by the environment in the wrapper script. The wrapper
 script is needed as these home relative diretory are set through
 environment variable and `flatpak run` doesn't do substitution.
 
